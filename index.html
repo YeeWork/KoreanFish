@@ -1,10 +1,11 @@
 <html>
 <!--
-        原始檔不是重點, 重點是碼農要發大財.
+    原始檔不是重點, 重點是碼農要發大財.
 -->
 
 <head>
-    <title>發大財</title>
+    <title>請問市長</title>
+    <meta charset="UTF-8">
     <!--Bootstrap using CDN-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -19,28 +20,55 @@
             width: 100%;
             text-align: center;
         }
+
+        div.forkme {
+            position: relative;
+            float: right;
+            margin: 0 0 0 -149;
+            z-index: 1;
+        }
     </style>
 </head>
 
 <body>
-    <div><center><img src='./fadachia.jpg'></img></center></div>
+
+    <div class="forkme">
+        <a href="https://github.com/NatLee/KoreanFish"><img width="149" height="149"
+                src="https://github.blog/wp-content/uploads/2008/12/forkme_right_red_aa0000.png?resize=149%2C149"
+                class="attachment-full size-full" alt="Fork me on GitHub" data-recalc-dims="1"></a>
+    </div>
     <main role="main" class="container">
-        
 
-        <br>
-        <center>
-            <input type='text' name='word'>
-            <button type='button' name='faBtn' onclick='btnSayFadachia()'>發大財</button>
-        </center>
-        <br>
-
-        <div>
-            <center>
-                <h2 name='fadachia' style='height:300'></h2>
-            </center>
+        <!--Block 1: Image-->
+        <div class="row justify-content-center">
+            <div class="d-flex align-self-sm-center p-2">
+                <img src='./fadachia.jpg'></img>
+            </div>
         </div>
+        <!--Block 1 Ended-->
 
+        <!--Block 2: Input area-->
+        <div class="row justify-content-center">
+            <div class="input-group d-flex col-8 p-4 ">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">市長請問</span>
+                </div>
+                <input type="text" name='word' class="form-control" placeholder="" aria-label="Recipient's username"
+                    aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                    <button type='button' name='faBtn' class="btn btn-success" onclick='btnSayFadachia()'>發問</button>
+                </div>
+            </div>
+        </div>
+        <!--Block 2 Ended-->
 
+        <!--Block 3: Reply area-->
+        <div class="row justify-content-center">
+            <div class="d-flex align-self-sm-center p-2">
+                <h2 name='fadachia'></h2>
+            </div>
+        </div>
+        <!--Block 3 Ended-->
 
     </main>
     <!-- Footer -->
@@ -80,5 +108,7 @@
     <script src='./generator.js'></script>
 
 </body>
-
+<!--
+    重點是大家要發大財, 你說的爆肝只是一小部分.
+-->
 </html>

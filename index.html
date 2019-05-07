@@ -4,6 +4,7 @@
 -->
 
 <head>
+    <title>發大財</title>
     <!--Bootstrap using CDN-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -22,9 +23,25 @@
 </head>
 
 <body>
-
+    <div><center><img src='./fadachia.jpg'></img></center></div>
     <main role="main" class="container">
         
+
+        <br>
+        <center>
+            <input type='text' name='word'>
+            <button type='button' name='faBtn' onclick='btnSayFadachia()'>發大財</button>
+        </center>
+        <br>
+
+        <div>
+            <center>
+                <h2 name='fadachia' style='height:300'></h2>
+            </center>
+        </div>
+
+
+
     </main>
     <!-- Footer -->
     <footer class="footer font-small blue">
@@ -34,7 +51,7 @@
             <span class="text-muted">2019
                 <a class="text-muted" href="#">YeeWork Group</a>
                 <a class="text-muted" href="#">
-                    <i class="fab fa-github-square fa-lg"></i>
+                    <i class="fab fa-github-square fa-lg" src='/'></i>
                 </a>
                 <a class="text-muted" href="#">
                     <i class="fab fa-facebook-square fa-lg"></i>
@@ -59,6 +76,9 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+
+    <script src='./generator.js'></script>
+
 </body>
 
 </html>

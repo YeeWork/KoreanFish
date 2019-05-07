@@ -1,0 +1,20 @@
+{
+  "name": "quote-generator",
+  "version": "0.0.0",
+  "description": "A simple TypeScript quote generator.",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NatLee/KoreanFish.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NatLee/KoreanFish/issues"
+  },
+  "homepage": "https://github.com/NatLee/KoreanFish#readme",
+  "dependencies": {
+    "typescript": "^3.4.5"
+  }
+}

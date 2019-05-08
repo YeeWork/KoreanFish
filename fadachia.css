@@ -1,0 +1,31 @@
+
+div.forkme {
+    position: relative;
+    float: right;
+    margin: 0 0 0 -149;
+    z-index: 1;
+}
+
+div.footer.container {
+    text-align: center;
+}
+
+img.guoImg {
+    width: 100%;
+    height: 100%;
+}
+
+
+/*
+ @media only screen and (max-width: 768px) {
+     
+}
+
+ @media only screen and (max-width: 480px) {
+     
+}
+
+ @media only screen and (max-width: 320px) {
+     
+}
+*/
